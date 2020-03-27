@@ -1,0 +1,38 @@
+/* reset */
+*,
+*:before,
+*:after {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html { -webkit-text-size-adjust: 100%; background: #fff;}
+
+body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, input { margin: 0; padding: 0;font-weight: normal;}
+input, select, textarea { outline: none; -webkit-appearance: none; font-size: 14px;}
+ul, ol { list-style: none;}
+i, em { font-style: normal;}
+a { text-decoration: none;}
+img { border: none;}
+table { border-spacing: 0; table-layout: fixed;}
+/*16px/1.5*/
+body { position: relative; font: 12px "PingFangSC-Regular","BlinkMacSystemFont",  "微软雅黑", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; word-wrap: break-word;}
+button{
+  outline: none;
+}
+button:focus {
+    outline: 0;
+}
+a:link{
+text-decoration:none;
+}
+a:visited{
+text-decoration:none;
+}
+a:hover{
+text-decoration:none;
+}
+a:active{
+text-decoration:none;
+}
