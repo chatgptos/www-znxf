@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>腾讯智能鲜蜂爆击红包-智能机 - AI零售新引擎，为商家赋能</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no" >
+        <meta name="description" content="腾讯智能鲜蜂爆击红包-智能机集合了AI图像识别、刷脸支付等创新技术，为商家提供高效、低成本的商业智能设备,帮助传统零售商家提高营业额,延长营业时间,并且提升了消费者的购物体验。">
+        <meta name="keywords" content="EasyGo，智能货柜，智能贩售机，自助贩售机，腾讯智能鲜蜂爆击红包-智能机，无人便利店">
+        <link rel="shortcut icon" href="favicon.ico" title="Favicon" />
+        <link rel="stylesheet" href="assets/css/public/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link href="assets/css/public/base.css" rel="stylesheet">
+        <link href="assets/css/public/common.css" rel="stylesheet">
+        <link href="assets/css/index.css" rel="stylesheet">
+        <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+        <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/common.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <!--<script src="https://api.kuaishangkf.com/script/DXNAYSMCnfmhfdB8hwS4nKAf" defer async></script>-->
+    </head>
+    <body>
+        <div id="headerItem"></div>
+        <div class="share-img-dis" style="display:none;">
+            <img src="assets/images/index_share.jpg" alt="腾讯智能鲜蜂爆击红包-智能机 - AI零售新引擎,为商家赋能">
+        </div>
+        <div class="banner-sec sec">
+            <div id="banner" style="display:none">
+                <div class="t wow custom-fadeInDown" data-wow-delay="0s" style="margin-top: 191px;">小货柜&nbsp;&nbsp;<span style="font-size:56px;">•</span>&nbsp;&nbsp;大生意</div>
+                <div class="row wow custom-fadeInDown" data-wow-delay=".2s" style="margin-top:40px;">24小时不间断售卖<span style="color: #676992;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>智能连接人. 货. 场<span style="color: #676992;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>大幅减少运营成本</div>
+                <div class="row2 wow custom-fadeInDown" data-wow-delay=".4s" style="margin-top: 114px;" id="openVideoDialogBtn">
+                    <div class="play-icon"></div>
+                    <div class="txt">观看影片进一步了解</div>
+                </div>
+            </div>
+        </div>
+        <div class="video-mask" id="videoMask" style="display:none">
+            <div class="close-icon" id="closeVideoDialogBtn"></div>
+            <div class="video-modal" id="videoModal">
+                
+            </div>
+        </div>
+        <div class="user-sec sec limit-width" style="margin-top: 112px;">
+            <div class="ice"></div>
+            <div style="margin-left:30px;">
+                <div class="t wow custom-fadeInDown" data-wow-delay="0.2s" style="margin-top: 58px;">为商家赚钱的智能货柜</div>
+                <div class="t2 wow custom-fadeInDown" data-wow-delay="0.4s" style="margin-top: 30px;">腾讯智能鲜蜂爆击红包-智能机集合了AI视觉识别、刷脸支付等创新科技，不但能让消费者有更便捷更无感的购物体验，<br>
+                        更能为商家丰富销售方式、延长销售时间、减轻人工成本、增加效益；<br>
+                        为商家实现数字化运营提供最有力的帮助。<br>
+                    接入腾讯智能鲜蜂爆击红包-智能机免费线下获客</div>
+                <div class="buy-step wow custom-fadeInDown" data-wow-delay="0.6s" style="margin-top:20px;"></div>
+                <div class="buy-price wow custom-fadeInDown" data-wow-delay="0.8s">
+                    <p>Pro ￥8999<span>起</span> <img style="width:131px" src="assets/images/index/prize_tips_web_cn.png" alt=""></p>
+                </div>
+                <div class="btn-group wow custom-fadeInDown" data-wow-delay="1s">
+                    <div class="buy-btn" id="buyBtn">
+                        <div class="buy-icon"></div>
+                        <div>立即订购</div>
+                        <div class="overlay" id="overlay"></div>
+                        <div class="mini-dialog" id="miniDialog" data-wow-delay="0.2s">
+                            <div class="close-icon" id="closeBtn"></div>
+                            <div class="miniprogram-img"></div>
+                            <div class="t">扫码订购</div>
+                        </div>
+                    </div>
+                    <div class="call-btn" style="margin-left:24px;">
+                        <div class="call-icon"></div>
+                        <div>咨询热线：400-968-8688</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sec energize-sec limit-width">
+            <div class="h-title wow custom-fadeInDown"  data-wow-delay="0.2s" style="padding-top:110px;">赋能商家场景</div>
+            <div class="sub-title wow custom-fadeInDown"  data-wow-delay="0.4s" style="margin-top: 39px;">24小时营业&nbsp;&nbsp;|&nbsp;&nbsp;提升营业额&nbsp;&nbsp;|&nbsp;&nbsp;无需额外人工成本&nbsp;&nbsp;|&nbsp;&nbsp;就近补货</div>
+            <div class="energize-img margin-bot65" style="margin-top: 34px;"></div>
+        </div>
+        <div class="ai-sec sec limit-width" style="margin-top:96px;margin-bottom: 104px;">
+            <div class="col">
+                <div class="line wow custom-fadeInDown" data-wow-delay="0.2s" style="margin-top: 72px;">
+                    <div class="t" style="margin-top:6px;"><span style="font-size: 48px;">800</span>&nbsp;&nbsp;<span style="font-size: 28px;">毫秒</span></div>
+                    <div class="t2" style="margin-top: 10px;">识别速度：800毫秒完成云端识别</div>
+                </div>
+                <div class="line wow custom-fadeInDown" data-wow-delay="0.4s" style="margin-top: 58px;">
+                    <div class="t" style="margin-top:6px;"><span style="font-size: 48px;">99.7</span>&nbsp;&nbsp;<span style="font-size: 28px;">%</span></div>
+                    <div class="t2" style="margin-top: 10px;">识别准确率：可达到99.7%</div>
+                </div>
+                <div class="line wow custom-fadeInDown" data-wow-delay="0.6s" style="height:110px;margin-top: 58px;">
+                    <div class="t" style="margin-top:6px;"><span style="font-size: 38px;">多项发明专利</span></div>
+                    <div class="t2" style="margin-top: 10px;width: 303px;line-height: 30px;">动态隐式模板、后处理算法、SKU增量学习、动态图像识别等</div>
+                </div>
+            </div>
+            <div class="col2">
+                <div class="t3" style="margin-top: 96px;">AI智能图像识别</div>
+                <div class="t4" style="margin-top: 28px;">基于Inception-v2 Faster R-CNN深度开发</div>
+                <div class="t5" style="margin-top: 68px;">
+                        <span style="margin-right: 10px;">•</span>EasyGo自主研发的AI图像识别技术<br>
+                        <span style="margin-right: 10px;">•</span>利用EasyGoNET和后处理服务技术<br>
+                        <span style="margin-right: 10px;">•</span>保证智能货柜的稳定运行<br>
+                        <span style="margin-right: 10px;">•</span>达到高达99.7%的识别准确率<br>
+                </div>
+            </div>
+        </div>
+        <div class="sec operate-sec limit-width" style="margin-bottom:128px;">
+            <div class="h-title wow custom-fadeInDown"  data-wow-delay="0.2s" style="padding-top:150px;">更智慧的运营管理平台</div>
+            <div class="sec sub-title wow custom-fadeInDown"  data-wow-delay="0.4s" style="margin-top: 32px;">EG智慧零售平台具有更完善的管理功能，可支持丰富的运营场景并进行数字化管控。</div>
+            <div class="sec sub-title wow custom-fadeInDown"  data-wow-delay="0.6s" style="margin-top: 15px;">在实现对智能货柜的高效运营基础上，大幅度降低人工成本。</div>
+            <div class="operate-flex" style="margin-top: 84px;">
+                <div class="oper-img">
+                     <img src="assets/images/index/platform_01.png">
+                     <p class="sec">货柜运营系统</p>
+                </div>
+                <div class="oper-img">
+                     <img src="assets/images/index/platform_02.png">
+                     <p class="sec">商品管理系统</p>
+                </div>
+                <div class="oper-img">
+                     <img src="assets/images/index/platform_03.png">
+                     <p class="sec">会员营销系统</p>
+                </div>
+                <div class="oper-img">
+                     <img src="assets/images/index/platform_04.png">
+                     <p class="sec">设备管控中心</p>
+                </div>
+                <div class="oper-img">
+                     <img src="assets/images/index/platform_05.png">
+                     <p class="sec">数据分析中心</p>
+                </div>
+                <div class="oper-img">
+                     <img src="assets/images/index/platform_06.png">
+                     <p class="sec">智能预警系统</p>
+                </div>
+            </div>
+        </div>
+        <!--<div class="stage-sec sec limit-width"  style="margin-top:138px;">
+            <div class="col"></div>
+            <div class="col2" style="margin-left:54px;">
+                <div class="t  wow custom-fadeInDown" data-wow-delay="0.2s" style="margin-top:104px;">智慧零售平台AI+</div>
+                <div class="t2 wow custom-fadeInDown" data-wow-delay="0.4s"  style="margin-top:55px;">EG智慧零售平台AI+利用图像识别、人脸识别、深度学习、和数据分析等方案融入到零售行业运营中，让用户享受到更舒适、便捷的购物体验。</div>
+                <div class="t2 wow custom-fadeInDown" data-wow-delay="0.6s" style="margin-top:40px;">同时自主研发的一体化零售管理平台，为管理者提供可实现对仓库、采购、门店、商品、营销、财务、客户等业务的统一管理，并根据各业务方数据进行精准化分析，为零售商提供更高的运营效益。</div>
+            </div>
+        </div>-->
+        <div class="view-sec sec"  style="margin-bottom: 103px;">
+            <div class="t wow custom-fadeInDown"  data-wow-delay="0.2s" style="padding-top:137px;">更多使用场景</div>
+            <div class="t2 wow custom-fadeInDown"  data-wow-delay="0.4s" style="margin-top: 26px;">饮料&nbsp;&nbsp;|&nbsp;&nbsp;零食&nbsp;&nbsp;|&nbsp;&nbsp;面包&nbsp;&nbsp;|&nbsp;&nbsp;玩具&nbsp;&nbsp;|&nbsp;&nbsp;啤酒&nbsp;&nbsp;|&nbsp;&nbsp;水果</div>
+            <div class="t3 wow custom-fadeInDown"  data-wow-delay="0.6s" style="margin-top: 25px;">腾讯智能鲜蜂爆击红包-智能机支持海量SKU的识别销售，全面满足用户的消费需求，更好地进行全场景服务。</div>
+            <div class="flex-box wow custom-fadeInDown"  data-wow-delay="0.8s" style="margin-top: 80px;">
+                <div  class="view" >
+                    <div class="row">
+                        <div class="t4">学校</div>
+                        <div class="t5">School</div>
+                    </div>
+                    <img style="width:100%;" src="assets/images/index/view-1.jpg">
+                </div>
+                <div  class="view" >
+                    <div class="row">
+                        <div class="t4">商铺周边</div>
+                        <div class="t5">Business District</div>
+                    </div>
+                    <img style="width:100%;" src="assets/images/index/view-5.jpg">
+                </div>
+                <div  class="view" >
+                    <div class="row">
+                        <div class="t4">医院</div>
+                        <div class="t5">Hospital</div>
+                    </div>
+                    <img style="width:100%;" src="assets/images/index/view-3.jpg">
+                </div>
+            </div> 
+            <div class="flex-box wow custom-fadeInDown"  data-wow-delay="0.8s">
+                <div  class="view" >
+                    <div class="row">
+                        <div class="t4">写字楼</div>
+                        <div class="t5">Office Building</div>
+                    </div>
+                    <img style="width:100%;" src="assets/images/index/view-4.jpg">
+                </div>
+                <div  class="view" >
+                    <div class="row">
+                        <div class="t4">景区</div>
+                        <div class="t5">Scenic Area</div>
+                    </div>
+                    <img style="width:100%;" src="assets/images/index/view-2.jpg">
+                </div>
+                <div  class="view" >
+                    <div class="row">
+                        <div class="t4">小区</div>
+                        <div class="t5">Community</div>
+                    </div>
+                    <img style="width:100%;" src="assets/images/index/view-6.jpg">
+                </div>
+            </div> 
+
+        </div>
+        <div class="case-sec sec" style="padding-bottom:100px;">
+            <div class="t wow custom-fadeInDown" data-wow-delay="0.2s" style="padding-top:126px;">客户案例展示</div>
+            <div class="row" style="margin-top: 67px;">
+                <div class="col">
+                    <div class="t2 wow fadeInRight" data-wow-delay="0.2s" style="margin-top:67px;">珠海面包店</div>
+                    <div class="t3 t3-english wow fadeInRight" data-wow-delay="0.2s" style="margin-top:29px;">U.Home Bakery</div>
+                    <div class="t4 wow fadeInRight" data-wow-delay="0.2s" style="margin-top:31px;">每日营业额约：600元/台<br>
+                        每月营业额约：18000元/台<br>
+                        投资回报期：1.6个月</div>
+                </div>
+                <div class="col2" style="position: relative;z-index:1;"></div>
+            </div>
+            <div class="row2" style="margin-top: 20px;">
+                <div class="col" style="position: relative;z-index:1;"></div>
+                <div class="col2">
+                    <div class="t2 wow fadeInLeft" data-wow-delay="0.2s" style="margin-top:67px;">顺客隆</div>
+                    <div class="t3 wow fadeInLeft" data-wow-delay="0.2s" style="margin-top:32px;">佛山陈登店</div>
+                    <div class="t4 wow fadeInLeft" data-wow-delay="0.2s" style="margin-top:24px;">每日营业额约：400元/台<br>
+                        每月营业额约：12000元/台<br>
+                        投资回报期：2.4个月</div>
+                </div>
+            </div> 
+        </div>
+        <div class="service-sec sec limit-width" style="margin-bottom: 100px;">
+            <div class="t wow custom-fadeInDown" data-wow-delay="0.2s" style="margin-top:130px;">完善的服务体系</div>
+            <div class="row wow custom-fadeInDown" data-wow-delay="0.4s">
+                <div class="col">
+                    <div class="service-img service-img1"></div>
+                    <div class="txt-wrap">
+                        <div class="t">运营小助手</div>
+                        <div class="t2">
+                            <span style="margin-right: 10px;">▪</span>提供选址、选品到配送运营的全方位服务<br>
+                            <span style="margin-right: 10px;">▪</span>甄选店长全面负责货柜营运活动的管理<br>
+                            <span style="margin-right: 10px;">▪</span>举办智能货柜专线市场推广活动<br>
+                            <span style="margin-right: 10px;">▪</span>根据不同运营状况制定相应的价格策略<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-img service-img2"></div>
+                    <div class="txt-wrap">
+                        <div class="t">培训体系</div>
+                        <div class="t2">
+                            <span style="margin-right: 10px;">▪</span>设备操作演示及基础使用培训<br>
+                            <span style="margin-right: 10px;">▪</span>前端运营与后台数据系统培训<br>
+                            <span style="margin-right: 10px;">▪</span>成立智能货柜专项售后群，随时交流<br>
+                            <span style="margin-right: 10px;">▪</span>实时跟踪运营情况，专业讲师固定答疑<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="service-img service-img3"></div>
+                    <div class="txt-wrap">
+                        <div class="t">售后服务</div>
+                        <div class="t2">
+                            <span style="margin-right: 10px;">▪</span>智能货柜整机保修，维修点覆盖全国<br>
+                            <span style="margin-right: 10px;">▪</span>可终身享受免费升级智慧零售平台系统<br>
+                            <span style="margin-right: 10px;">▪</span>免费数据备份及系统支撑修复工作<br>
+                            <span style="margin-right: 10px;">▪</span>出现故障，远程30分钟内响应<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cooperate-sec sec">
+            <div class="h-title wow limit-width custom-fadeInDown" data-wow-delay="0.2s" style="margin-top:99px;">
+                <img src="assets/images/index/cooperate-1.png" alt="logo">
+                微信深度合作伙伴
+            </div>
+            <div class="cooperate-row wow limit-width custom-fadeInDown" data-wow-delay="0.4s">
+                <p style="padding-left:515px">2020年3月，"腾讯智能鲜蜂爆击红包"-智能机，已经累计线下获客过千</p>
+                <p style="padding-left:515px">2020年3月，腾讯ad领投升级"腾讯智能鲜蜂爆击红包"系统，获得线下红包获客能力</p>
+                <p style="padding-left:515px">2020年3月，腾讯ad智能鲜蜂爆击红包-因产品数据被强制接入腾讯限制防沉迷</p>
+                <p style="padding-left:525px">2020年2月，腾讯ad智能鲜蜂爆击红包-受邀进入腾讯总部创客计划孵化组</p>
+                <p style="padding-left:530px">2019年1月，腾讯ad智能鲜蜂爆击红包-进入内侧战略研发阶段</p>
+                <p style="padding-left:522px">2019年12月，智能鲜蜂自用型消费系统线上线下产品品鉴大会成功举办</p>
+                <p style="padding-left:530px">2019年11月，智能鲜蜂自用型消费系统3个月破3000忠实活跃粉丝</p>
+                <p style="padding-left:520px">2019年10月，智能鲜蜂自用型消费系统获得京东创客大赛组委员关注</p>
+                <p style="line-height:30px;">2019年8月，智能鲜蜂自用型消费系统上线获得BAT社交孵化团队关注</p>
+            </div>
+        </div> 
+        <div id="footerItem"></div>
+        <script> 
+            $('#headerItem').load('./assets/componts/header.html #header',function(res,status,xhr){
+                if(status == 'success'){
+                    setScript("assets/js/bootstrap.min.js", "#headerItem",'.page-index')
+                    setScript("assets/js/header.js", "#headerItem")
+                }
+            })
+            $('#footerItem').load('./assets/componts/footer.html #footer',function(res,status,xhr){
+                if(status == 'success'){}
+            })
+        </script>
+        <script>
+            window.onload=function(){
+                banner.style.display='block';
+                setTimeout( function(){
+                    $('#videoModal').html('<video id="movie" src="http://www.ieasygo.cn/assets/video/xuanchuan.mp4" preload=auto controls"></video>')
+                },2000)
+                //滚动渐变
+                var wow = new WOW(
+                    {
+                        boxClass:     'wow',      // animated element css class (default is wow)
+                        animateClass: 'animated', // animation css class (default is animated)
+                        offset:       0,          // distance to the element when triggering the animation (default is 0)
+                        mobile:       true,       // trigger animations on mobile devices (default is true)
+                        live:         true,       // act on asynchronously loaded content (default is true)
+                        callback:     function(box) {
+                        // the callback is fired every time an animation is started
+                        // the argument that is passed in is the DOM node being animated
+                        },
+                        scrollContainer: null, // optional scroll container selector, otherwise use window
+                    }
+                    );
+                wow.init();
+
+
+                //点击按钮显示订货小程序
+                buyBtn.onclick=function(){
+                    overlay.style.display='block';
+                    miniDialog.style.display='block';
+                    var arr = document.getElementById("miniDialog");
+                    arr.classList.add('qrcode-fadeInDown')
+                    arr.classList.remove('qrcode-fadeOutDown')
+                }
+                //关闭订货小程序弹窗
+                closeBtn.onclick=function(e){
+                    if (e && e.stopPropagation){       
+                        e.stopPropagation();          
+                        } else{     
+                        e.cancelBubble=true;      
+                    }
+                    var arr = document.getElementById("miniDialog");
+                    arr.classList.add('qrcode-fadeOutDown')
+                    arr.classList.remove('qrcode-fadeInDown')
+                    overlay.style.display='none';
+                    setTimeout(function() {
+                        miniDialog.style.display='none'
+                    },500)
+                }
+                overlay.onclick=function(e){
+                    if (e && e.stopPropagation){       
+                        e.stopPropagation();          
+                        } else{     
+                        e.cancelBubble=true;      
+                    }
+                    overlay.style.display='none';
+                    var arr = document.getElementById("miniDialog");
+                    arr.classList.add('qrcode-fadeOutDown')
+                    arr.classList.remove('qrcode-fadeInDown')
+                    setTimeout(function() {
+                        miniDialog.style.display='none'
+                    },500)
+                }
+                //打开视频弹窗
+                openVideoDialogBtn.onclick=function(){
+                    videoMask.classList.add('visible');
+                    videoMask.style.display = 'block';
+                    setTimeout(function() {
+                        movie.play();
+                    }, 500);
+                    document.body.style.overflow='hidden';
+                }
+                //关闭视频弹窗
+                closeVideoDialogBtn.onclick=function(){
+                    videoMask.classList.remove('visible');
+                    movie.pause();
+                    document.body.style.overflow='auto';
+                }
+                //关闭视频弹窗
+                videoMask.addEventListener('click',function(e){
+                    if(e.target.id==='movie')return;//点击视频不关闭弹窗
+                    videoMask.classList.remove('visible');
+                    movie.pause();
+                    document.body.style.overflow='auto';
+                },false);
+            }
+
+        </script>                <script>
+            var _mtac = {};
+            (function() {
+                var mta = document.createElement("script");
+                mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+                mta.setAttribute("name", "MTAH5");
+                mta.setAttribute("sid", "500714928");
+                var s = document.getElementsByTagName("script")[0];
+                s.parentNode.insertBefore(mta, s);
+            })();
+        </script>
+
+    </body>
+</html>
