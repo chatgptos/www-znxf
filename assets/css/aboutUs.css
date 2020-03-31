@@ -1,0 +1,547 @@
+body {
+   overflow-x: hidden; 
+}
+.banner{
+    width: 100%;
+    height: 440px;
+    position: relative;
+    /*background: url(../images/about_bg.png) no-repeat center center;*/
+    background: url(../images/about_banner2.jpg) no-repeat center center;
+}
+.banner .banner-mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.banner .banner-mask .banner-title{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 172px;
+    letter-spacing: 6px;
+}
+.content-title{
+    font-size: 38px;
+    margin-top: 100px;
+    line-height: 1;
+}
+.easy-content .con-desc {
+    max-width: 1000px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    margin: 60px auto;
+    text-align: justify;
+    overflow: hidden;
+}
+.easy-content-grey .content-title{
+    margin: 100px auto 80px auto;
+}
+.easy-content .intro-img{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.team-desc{
+    margin-top: 80px;
+}
+.portrait{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.easy-content-grey .name{
+    font-size: 22px;
+    color: #333333;
+    line-height: 22px;
+    margin: 15px auto;
+}
+.easy-content-grey .identity{
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+.easy-content-team{
+    padding-bottom: 40px;
+}
+.team-intro-item{
+    padding-bottom: 60px;
+}
+.contact-way{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.contact-way .way-title{
+    font-size: 20px;
+    color: #333333;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.contact-way .way-des{
+    font-size: 16px;
+    color: #666666;
+    line-height: 24px;
+}
+.ways-one{
+    height: 55px;
+    margin-bottom: 17px;
+    background: url(../images/email_icon.png) no-repeat center center;
+}
+.ways-two{
+    height: 55px;
+    margin-bottom: 17px;
+    background: url(../images/phone_icon.png) no-repeat center center;
+}
+.ways-three{
+    height: 55px;
+    margin-bottom: 17px;
+    background: url(../images/address_icon.png) no-repeat center center;
+}
+/*企业文化*/
+.corporate-culture{
+    width: 100%;
+    height: 666px;
+    background: #f7f7f7;
+}
+.culture-title{
+    font-size: 38px;
+    padding-top: 100px;
+    text-align: center;
+}
+.culture-bigbox{
+    max-width: 1200px;
+    height:350px;
+    padding-top: 78px;
+    margin: 0 auto;
+}
+.culture-box{
+    width:360px;
+    height:350px;
+    background:rgba(255,255,255,.5);
+    border:1px solid rgba(239,239,239,1);
+    box-shadow:0px 3px 30px 2px rgba(2,79,76,0.08);
+    float: left;
+    margin-left: 30px;
+}
+.culture-box img{
+    display: block;
+    margin: 38px 0 0 40px;
+}
+.naughty{
+    position: relative;
+    margin: 37px 0 0 40px;
+    font-size:24px;
+    font-weight:bold;
+    font-family:PingFang-SC-Bold;
+    color:rgba(51,51,51,1);
+}
+.naughty-shadow{
+    width:66px;
+    height:12px;
+    background:rgba(0,156,132,.2);
+    position: absolute;
+    top: 23px;
+}
+.naughty-shadow1{
+    width:86px;
+    height:12px;
+    background:rgba(0,156,132,.2);
+    position: absolute;
+    top: 23px;
+}
+.culture-box p{
+    width:270px;
+    height:77px;
+    margin: 24px 50px 0 40px;
+    font-size:18px;
+    font-family:PingFang-SC-Bold;
+    font-weight:bold;
+    color:rgba(85,85,85,1);
+    line-height: 30px;
+}
+/*发展历程*/
+/*.year-col{
+    width: 100%;
+    max-width:1000px;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 40px;
+    margin-top: 30px;
+}
+.year-col:first-of-type{
+    margin-top: 50px;
+}
+.year-col:last-of-type{
+    padding-bottom: 100px;
+    
+}
+.year-col .points{
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    top: 4px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 2px solid #eaeaea;
+    background: white;
+    text-align: center;
+}
+.year-col .cir-point{
+    position: absolute;
+    left:4px;
+    top: 4px;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin-top: 0;
+    border-radius: 50%;
+    background: #ccc;
+}
+.year-name{
+    font-size: 24px;
+    color: #333333;
+    
+}
+.year-name span{
+    font-weight: bold;
+}
+.year-detail{
+    border-left: 2px solid #eaeaea;
+    padding:16px 0 20px 30px;
+    margin-left: -30px;
+    margin-top: -6px;
+}
+.year-col:last-of-type .year-detail{
+    padding-bottom: 0px;
+}
+.year-detail p{
+    margin-top: 10px;
+    min-height: 30px;
+}*/
+.year-img{
+    text-align: center;
+    padding: 60px 0 100px 50px; 
+}
+.year-col{
+    display: none;
+}
+
+/*加入我们*/
+.join-us{
+    width: 100%;
+    height: 472px;
+}
+.join-us span{
+    width: 100%;
+    display: block;
+    margin-top: 63px;
+    text-align: center;
+    font-size:30px;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+}
+
+.zhiwei{
+    width:200px;
+    height:56px;
+    line-height: 56px;
+    text-align: center;
+    background:linear-gradient(135deg,rgba(0,184,156,1),rgba(0,156,132,1));
+    box-shadow:0px 15px 17px 4px rgba(48,205,200,0.16);
+    border-radius:28px;
+    margin: 83px auto;
+}
+.zhiwei a{
+    width:200px;
+    height:56px;
+    display: block;
+    font-size:26px;
+    color: #fff;
+}
+.zhiwei:hover{
+    opacity: .8;
+}
+/*联系我们*/
+.contact-us{
+    width: 100%;
+    height: 462px;
+    background: #f7f7f7;
+}
+.contact-title{
+    font-size: 38px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+.event-time{
+    width: 70px;
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    /*margin: 10px auto;*/
+}
+.event-detail{
+    display: inline-block;
+    font-size: 16px;
+    color: #666666;
+    margin-left: 60px;
+}
+.contact-way-mobile,.intro-img-mob{
+    display: none;
+}
+.mobile-banner-title{
+    display: none;
+}
+@media screen and (max-width:900px){
+    .contact-way-pc,.intro-img-pc{
+        display: none;
+    }
+    .intro-img-mob{
+        display: inline-block;
+    }
+    .banner{
+        height: 4.2rem;
+        background: url(../images/mob_about_banner2.jpg) no-repeat center center;
+        background-size: contain;
+    }
+    .banner .banner-mask .banner-title{
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+        margin-top: 1.8rem;
+        letter-spacing: 0;
+    }
+    .content-title{
+        font-size: 0.44rem;
+        line-height: 0.44rem;
+        color: #333333;
+        margin-top: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+    .easy-content .con-desc{
+        padding: 0 0.6rem;
+        color: #666666;
+        font-size: 0.24rem;
+        line-height: 0.36rem;
+        text-align: justify;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .intro-img{
+        padding: 0 0.4rem;
+        text-align: center;
+    }
+    .intro-img img{
+        max-width: 6.7rem;
+    }
+    .intro-img .intro-img-desc{
+        width: 100%;
+        margin-top: 0.3rem;
+    }
+    .intro-img .intro-img-desc img{
+        width: 100%;
+    }
+    .easy-content .intro-img{
+        margin-bottom: 0.7rem;
+    }
+    .easy-content-grey .content-title{
+        color: #333333;
+        font-size: 0.44rem;
+        line-height: 0.44rem;
+        margin-top: 0.8rem;
+        margin-bottom: 0;
+    }
+    .content-grey-wrap{
+        padding-bottom: 0.8rem;
+    }
+    .content-grey-wrap .col-md-4{
+        padding: 0;
+    }
+    .team-intro-item{
+        padding-bottom: 0;
+    }
+    .team-intro{
+        margin-top: 0.6rem;
+        padding-bottom: 0;
+    }
+    .team-intro .portrait{
+        width: 1.8rem;
+        height: 1.8rem;
+        float: left;
+        margin-left:0.8rem; 
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .team-intro .portrait img{
+        width: 100%;
+        height: 100%;
+    }
+    .team-intro .personal-profile{
+        float: left;
+        padding-top: 0.36rem;
+        width: 4rem;
+    }
+    .team-intro .personal-profile-more{
+        padding-top: 0.18rem;
+    }
+    .team-intro .personal-profile .name,.team-intro .personal-profile .identity{
+        display: inline-block;
+        margin-left: 0.4rem;
+    }
+    .team-intro .personal-profile .name{
+         font-size: 0.32rem;
+         line-height: 0.32rem;
+         color: #333333;
+     }
+    .easy-content-team{
+         padding-bottom: 0;
+     }
+    .easy-content-grey .name{
+        margin: 0 auto;
+    }
+    .team-intro .personal-profile .identity{
+        font-size: 0.24rem;
+        line-height: 0.24rem;
+        color: #333333;
+    }
+    .team-intro .personal-profile .identity-desc{
+        display:block;
+        font-size: 0.24rem;
+        color: #666666;
+        text-align: left;
+        line-height: 0.36rem;
+        margin-top: 0.3rem;
+    } 
+    
+    .contact-way-mobile{
+        display: block;
+        padding: 0 0.4rem 0.6rem 0.4rem;
+    }
+    .ways-item{
+        /*float: left;*/
+        width: 100%;
+        text-align: left;
+        padding: 0.2rem 0 0.2rem 2.5rem;
+        margin-bottom: 0.6rem;
+        
+    }
+    .ways-item-one{
+        background: url(../images/email_icon_mob.png) no-repeat 1.4rem center;
+        background-size: 0.8rem 0.8rem ;
+    }
+    .ways-item-two{
+        background: url(../images/phone_icon_mob.png) no-repeat 1.4rem center;
+        background-size: 0.8rem 0.8rem ;
+    }
+    .ways-item-three{
+        background: url(../images/address_icon_mob.png) no-repeat 1.4rem center;
+        background-size: 0.8rem 0.8rem ;
+    }
+    .ways-item-title{
+        font-size: 0.32rem;
+        line-height: 0.32rem;
+        color: #333333;
+        margin-bottom: 0.13rem;
+    }
+    .ways-item-desc{
+        font-size: 0.22rem;
+        color: #666666;
+        line-height: 0.32rem;
+    }
+    /*发展历程*/
+    .content-dev-wrap{
+        padding: 0 0.6rem;
+    }
+    .year-img{
+        display: none;
+    }
+    .year-col{
+        display: block;
+    }
+    .year-col{
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
+        padding-left: 0.4rem;
+        margin-top: 0.36rem;
+    }
+    .year-col:first-of-type{
+        margin-top: 0px;
+    }
+    .year-col:last-of-type{
+        padding-bottom: 0.8rem;
+    }
+    .year-col .points{
+        position: absolute;
+        display: inline-block;
+        left: 0;
+        top: 0.06rem;
+        width: 0.3rem;
+        height: 0.3rem;
+        border-radius: 50%;
+        border: 0.02rem solid #eaeaea;
+        background: white;
+    }
+    .year-col .cir-point{
+        position: absolute;
+        left: 0.05rem;
+        top: 0.05rem;
+        display: inline-block;
+        width: 0.16rem;
+        height: 0.16rem;
+        margin-top: 0rem;
+        border-radius: 50%;
+        background: #ccc;
+    }
+    .year-name{
+        font-size: 0.3rem;
+        color: #333333;
+        height: 0.3rem;
+    }
+    .year-name span{
+        font-weight: bold;
+    }
+    .year-detail{
+        border-left: 0.02rem solid #eaeaea;
+        padding:0.26rem 0 0.2rem 0.3rem;
+        margin-left: -0.26rem;
+        margin-top: -0.16rem;
+    }
+    .year-col:last-of-type .year-detail{
+        padding-bottom: 0px;
+    }
+    .year-detail p{
+        margin-top: 0.16rem;
+        min-height: 0.36rem;
+    }
+    .event-time{
+        width: 0.9rem;
+        height: 100%;
+        font-size: 0.24rem;
+        color: #333333;
+        vertical-align: top;
+        font-weight: bold;
+    }
+    .event-detail{
+        width: 4.5rem;
+        display: inline-block;
+        font-size: 0.24rem;
+        color: #666666;
+        margin-left: 0.2rem;
+        vertical-align: top;
+    }
+    .corporate-move{
+        display: none;
+    }
+    .join-move{
+        display: none;
+    }
+}

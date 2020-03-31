@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>精品超市 - EasyGo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <meta name="description" content="EasyGo未来便利店合伙共创计划，EasyGo诚邀您共创未来">
+    <meta name="keywords" content="EasyGo,合伙共创计划,EasyGo招商加盟,无人便利店">
+    <link rel="shortcut icon" href="favicon.ico" title="Favicon" />
+    <link rel="stylesheet" href="assets/css/public/bootstrap.min.css">
+    <link href="assets/css/public/base.css" rel="stylesheet">
+    <link href="assets/css/public/common.css" rel="stylesheet">
+    <link href="assets/css/easygo.css" rel="stylesheet">
+    <link href="assets/css/supermarket.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/js/common.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="share-img-dis" style="display:none;">
+        <img src="assets/images/coop_share.png" alt="EasyGo加盟">
+    </div>
+    <div class="banner">
+        <div class="coop-banner-mask text-center"></div>
+    </div>
+
+    <div class="wec-item-wrap">
+        <div class="wec-item">
+            <div class="cafe-text">
+                <div class="cafe-text-title">
+                    EasyGo 智能精品超市
+                </div>
+                <p class="con-dia">
+                    EasyGo是一家专注于发展新零售的企业，在广东地区已经拥有超过100家的未来便利店，现在跟万科地产合作联营，在番禺基盛万科里中央公园开展一个新的零售超级物种的合作，占地超过2000平方。超级物种命名万物市集，覆盖业务包括；智能零售、生鲜、熟食和3公里免费配送平台等等。
+                </p>
+                <p class="con-dia">EasyGo主要负责智能零售部分的业务拓展。整个智能零售区域占地450平方，提供来自全球的精选优质产品（进口产品占70%）, 同时全程采用人脸识别购物解决方案，为顾客提供一个跨时代的购物体验。
+                </p>
+            </div>
+            <div class="supermarket-pic"></div>
+        </div>
+    </div>
+
+    <div class="supermarket-pc2">
+        <div class="wec-item">
+            <div class="supermarket-pic2"></div>
+            <div class="supermarket-text">
+                <div class="supermarket-text-title">
+                    精品进口超市
+                </div>
+                <p class="supermarket-dia">
+                    我们将为消费者精新心筛选产品，非生鲜区域将产品将覆盖休闲食品、乳制品、保健品和生活用品等。产品将超过70%为进口产品。我们希望利用精品超市为消费者打造一种高品质高质量的生活体验。
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="four-song">
+        <div class="c">
+            <h3>智能刷脸购物</h3>
+            <div class="kong"></div>
+            <p class="sub-title">消费者只需绑定个人的面部特征，可进行“刷脸购物”</p>
+            <ul>
+                <li>
+                    <img src="./assets/images/supermarket1.png" alt="">
+                    <h6>绑定面部特征</h6>
+                    <p>在结算机和手机上绑定个人面部特征</p>
+                </li>
+                <li>
+                    <img src="./assets/images/supermarket2.png" alt="">
+                    <h6>挑选商品</h6>
+                    <p>进店选择所需商品</p>
+                </li>
+                <li>
+                    <img src="./assets/images/supermarket3.png" alt="">
+                    <h6>放至结算机</h6>
+                    <p>将所选购买的商品放在结算机上</p>
+                </li>
+                <li>
+                    <img src="./assets/images/supermarket4.png" alt="">
+                    <h6>刷脸支付</h6>
+                    <p>结算机器确认面部特征，购买成功</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="experience">
+        <div class="wec-item">
+            <div class="experience-pic"></div>
+            <div class="experience-text">
+            </div>
+            <div class="bbox">
+                <div class="sm-box">
+                    <div class="experience-text-title">
+                    人脸识别购物体验
+                </div>
+                <p class="experience-dia">
+                    整个超市将使用我们最新研发的人脸识别购物解决方案，消费者需要通过人脸识别系统进行购买和支付。
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="headerItem"></div>
+    <div id="footerItem"></div>
+    <script> 
+        $('#headerItem').load('./assets/componts/header.html #header',function(res,status,xhr){
+            if(status == 'success'){
+                setScript("assets/js/bootstrap.min.js", "#headerItem",'.page-easygo')
+                setScript("assets/js/header.js", "#headerItem")
+            }
+        })
+        $('#footerItem').load('./assets/componts/footer.html #footer',function(res,status,xhr){
+            if(status == 'success'){}
+        })
+    </script>
+    <script>
+        if (window.location.href.indexOf('#') > 0 && window.location.href.split('#')) {
+            document.getElementById("coop-item").scrollIntoView()
+        }
+        $('.logo').click(function () {
+            location.href = 'index.html';
+        });
+
+        var rePhone = /^1[34578]\d{9}$/;
+        var reEmail = /\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/;
+
+        $('.input-item').focus(function () {
+            $(this).addClass('input-item-active').siblings().removeClass('input-item-active');
+        }).blur(function () {
+
+            $(this).removeClass('input-item-active');
+
+        });
+
+        $('#phone').blur(function () {
+
+            if (!rePhone.test($('#phone').val())) {
+                $('.phone-prompt').show();
+            } else {
+                $('.phone-prompt').hide();
+            }
+        })
+
+        $('#email').blur(function () {
+
+            if (!reEmail.test($('#email').val())) {
+                $('.email-prompt').show();
+            } else {
+                $('.email-prompt').hide();
+            }
+        });
+        $('.input-item').on('input propertychange', function () {
+            if (!$('#name').val() || !$('#phone').val() || !$('#email').val() || !$('#city').val() || !$('#interested_city').val() || !$('#job').val()) {
+                $('.btn').attr('disabled', true);
+                $('.btn').removeClass('submit-btn').addClass('submit-btn-ban');
+            } else {
+                $('.btn').removeClass('submit-btn-ban').addClass('submit-btn');
+                $('.btn').attr('disabled', false);
+            }
+        });
+
+        $('.btn').click(function () {
+
+            var name = $('#name').val();
+            var phone = $('#phone').val();
+            var email = $('#email').val();
+            var city = $('#city').val();
+            var interested_city = $('#interested_city').val();
+            var job = $('#job').val();
+            var referral = $('#referral').val();
+            var other = $('#other').val();
+            var data = {
+                name: name,
+                phone: phone,
+                email: email,
+                city: city,
+                interested_city: interested_city,
+                job: job,
+                referral: referral,
+                other: other
+            };
+
+            var url = "https://astore.kmud.net/astore/service/api/add_partner.php";
+
+            $.ajax({
+                type: "GET",
+                cache: false,
+                url: url,
+                data: data,
+                dataType: 'jsonp',
+                jsonpCallback: 'callback',
+                success: function (res) {
+
+                    if (res.ret == 200) {
+
+                        $('.overlay').show();
+                        $('.success-mask').show();
+
+                        $('#name').val('');
+                        $('#phone').val('');
+                        $('#email').val('');
+                        $('#city').val('');
+                        $('#interested_city').val('');
+                        $('#job').val('');
+                        $('#referral').val('');
+                        $('#other').val('');
+
+                    } else {
+
+                        $('.overlay').show();
+                        $('.fail-mask').show();
+
+                    }
+
+                },
+                error: function (err) {
+                    console.log(err)
+                    $('.fail-mask').show();
+                    $('.overlay').show();
+
+                }
+            });
+
+        });
+
+        $('.close-mask').click(function () {
+            $('.overlay').hide();
+        })
+    </script>
+</body>
+
+</html>

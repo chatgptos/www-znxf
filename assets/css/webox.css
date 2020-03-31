@@ -1,0 +1,275 @@
+.banner{
+    width: 100%;
+    height: 710px;
+    margin-top: 80px;
+    position: relative;
+    background: url(../images/box_banner.png) no-repeat center center;
+}
+.wec-item-wrap{
+    width: 100%;
+    height: 700px;
+    background: url(../images/box_second_ico.png) no-repeat center center;    
+}
+.wec-item{
+    max-width: 1200px;
+    height: 920px;
+    margin: 0 auto;
+    text-align: right;
+}
+.cafe-text{
+    width: 420px;
+    padding: 200px 10px 0;
+    float: right;
+    text-align: left;
+}
+.cafe-text-title{
+    font-size: 40px;
+    color: #333333;
+}
+.con-dia{
+    font-size: 14px;
+    margin-top: 32px;
+}
+@media screen and (max-width:900px){
+    .banner{
+        height: 4.2rem;
+        background: url(../images/wecofe_banner.jpg) no-repeat center center;
+        background-size: contain;
+        margin-top: 1rem;
+    }
+}
+.wec-item-easy{
+    width: 100%;
+    height: 540px;
+    background: url(../images/box_second_easy.png) no-repeat center center; 
+}
+.easy-item{
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+    text-align: left;
+}
+.kongdiv{
+    width: 495px;
+    height: 400px;
+    float: right;
+}
+.easy-text{
+    width: 445px;
+    padding: 131px 10px 0;
+    float: right;
+    text-align: left;
+    margin-right: 166px;
+}
+.four-song{
+    min-height: 700px;
+    background-color: #f7f7f7;
+    padding: 85px 16px 96px;
+}
+.c{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.four-song h3{
+    height: 67px;
+    line-height: 67px;
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+}
+.sub-title{
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+.four-song ul{
+    overflow: hidden;
+    padding-top: 106px;
+    text-align: center;
+    overflow: hidden;
+}
+.four-song ul li{
+    text-align: center;
+    vertical-align: middle;
+}
+.four-song ul li .cont{
+    height: 60px;
+}
+.four-song ul li h6{
+    line-height: 1;
+    margin: 30px 0 20px;
+    font-size: 22px;
+    color: #333;
+}
+.four-song ul li p{
+    line-height: 1;
+    font-size: 14px;
+    color: #666;
+    padding-bottom: 8px;
+}
+.zn{
+    height: 820px;
+    background: #fff url('../images/box_buy_ico.png') center no-repeat;
+}
+.zn .title, .zhi .title{
+    height: 238px;
+    line-height: 238px;
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+}
+.ad{
+    height: 810px;
+    background: #f7f7f7;
+}
+.border-lists{
+    margin: 0 auto;
+}
+.border-lists .border-item{
+    background: url('../images/border_ico.png') center no-repeat;
+    width: 300px;
+    height: 226px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.border-lists .border-item ul{
+    vertical-align: middle;
+}
+.border-lists .border-item ul li{
+    text-align: center;
+    font-size: 22px;
+    color: #009c84;
+    line-height: 1;
+    padding: 5px 0;
+}
+.ad .title, .zhi .title{
+    height: 238px;
+    line-height: 238px;
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+}
+.ad-ul{
+    padding-left: 95px;
+}
+.ad-ul li{
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.ad .r, .ad img{
+    float: left;
+}
+.ad .r{
+    padding: 15px 0 0 30px;
+    width: 850px;
+}
+.ad .r h6{
+    height: 45px;
+    line-height: 45px;
+    color: #333;
+    font-size: 24px;
+}
+.ad .r p{
+    line-height: 33px;
+    color: #333;
+    font-size: 18px;
+}
+/*加盟  */
+.cooreation{
+    background-color: #fff;
+    height: 468px;
+}
+.cooreation .zhi-ul{
+    overflow: hidden;
+    width: 998px;
+    padding-left: 25px;
+    margin: 0 auto;
+    margin-top: -38px;
+}
+.cooreation .zhi-ul li{
+    line-height: 1;
+    height: 171px;
+    width: 998px;
+    padding-left: 50px;
+    margin: 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+.cooreation .zhi-ul li .fl{
+    float: left;
+}
+.cooreation .zhi-ul li .fr{
+    float: right;
+}
+.cooreation .zhi-ul li .mobile-num::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.cooreation .zhi-ul li .mobile-num span{
+    vertical-align: middle;
+    font-weight:600;
+}
+.cooreation .zhi-ul li .mobile-num{
+    color: #009c84;
+    font-size: 18px;
+    margin-right: 50px;
+    height: 90px;
+}
+.cooreation .zhi-ul li img{
+    vertical-align: middle;
+}
+.cooreation .zhi-ul li .join-desc{
+    color: #333333;
+    padding-left: 36px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.cooreation .zhi-ul li .join-desc .cn{
+    font-size: 24px;
+}
+.cooreation .zhi-ul li .join-desc .en{
+    font-size: 18px;
+    padding-top: 12px;
+}
+.cooreation .zhi-ul li:nth-child(1){
+    background: #f7f7f7;
+}
+.in{
+    background-color: #009c84;
+    height: 128px;
+    padding: 40px 0;
+    line-height: 128px;
+}
+.in ul{
+    overflow: hidden;
+}
+.in ul li{
+    float: left;
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-right: 1px solid #24baa3;
+}
+.in ul li.four-in{
+    border-right: none;
+}
+.in ul li span{
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+    display: block;
+}
+.in ul li img{
+    vertical-align: middle;
+}
+.in ul li .c-right{
+    display: inline-block;
+    line-height: 25px;
+    vertical-align: middle;
+    text-align: left;
+}
